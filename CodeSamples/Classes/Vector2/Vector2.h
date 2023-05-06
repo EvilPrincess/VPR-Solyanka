@@ -1,5 +1,6 @@
 #pragma once
-#include "resources.h"
+#include <windows.h>
+#include <string>
 class Vector2
 {
 private:
