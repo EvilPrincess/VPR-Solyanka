@@ -1,6 +1,7 @@
 #pragma once
 
-#include "resources.h"
+#include <windows.h>
+#include <string>
 #include "Vector3.h"
 
 class Transform
