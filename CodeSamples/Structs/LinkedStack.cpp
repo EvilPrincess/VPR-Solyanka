@@ -17,6 +17,11 @@ struct LinkedStack
 	// Указатель на вершину стека
 	Node* head = nullptr;
 
+	// Возвращает верхнее значение в стеке
+	T Get()
+	{
+		return head->value;
+	}
 	// Возвращает значение _Idx-того элемента в стеке
 	T Get(UINT _Idx)
 	{
